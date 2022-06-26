@@ -1,5 +1,5 @@
 #hobbies{
-    margin: 50px 0;
+    background: #060E15
 }
 
 .hobbies__titulo{
@@ -8,7 +8,7 @@
 	font-size: 1.8rem;
     text-align: center;
     text-transform: uppercase;
-    color: #060E15;
+    color: white;
 }
 
 .hobbies__lista{

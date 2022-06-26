@@ -19,7 +19,8 @@
 	font-family: 'Ubuntu' , sans-serif;
 	font-weight: 700;
 	font-size: 3rem;
-	margin-bottom: 2.3rem;
+	margin-top: 1.2rem;
+	margin-bottom: 2.5rem;
 	color: #66ff86;
 	text-align: center;
 }
@@ -33,13 +34,13 @@
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 1.1rem;
 	line-height: 1.5rem;
-	margin-top: .5rem;
+	margin-top: 2rem;
 	margin-bottom: 3rem;
 }
 
 .presentacion__lista {
 	display: flex;
-	margin-top: 2rem;
+	margin-top: 4.4rem;
 	margin-left: 30%;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -93,4 +94,39 @@
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	color: whitesmoke;
 	background-color: black;
+}
+
+.presentacion__detalles {
+	background: #060E15;
+}
+
+.presentacion__detalles .contenedor {
+	margin-top: -4.2rem;
+	margin-left: 8rem;
+}
+
+.presentacion__detalles-titulo {
+	font-family: 'Ubuntu' , sans-serif;
+	font-weight: 700;
+	font-size: 1.5rem;
+	margin-bottom: 1.7rem;
+	color: white;
+	text-decoration: underline;
+}
+
+.presentacion__detalles-texto {
+	font-family: 'Ubuntu' , sans-serif;
+	font-weight: 500;
+	font-size: 1rem;
+	color: white;
+	margin-top: .5rem;
+}
+
+.presentacion__detalles-texto:hover {
+	color: #66ff86;
+}
+
+.detalles__texto-marcado {
+	font-weight: 700;
+	margin-right: 2rem;
 }
