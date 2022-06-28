@@ -91,9 +91,8 @@
 }
 
 .presentacion__items__curriculo:hover{
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	color: whitesmoke;
-	background-color: black;
+	transform: scale(1.05, 1.05);
+    box-shadow: 0 0 20px #66ff86;
 }
 
 .presentacion__detalles {
