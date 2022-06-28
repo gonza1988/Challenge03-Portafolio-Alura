@@ -35,3 +35,36 @@
     color: #ff66c4;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 480px) {
+
+    .header {
+        justify-content:center;
+    }
+
+    .header__menu {
+        flex-wrap: nowrap;
+    }
+
+    .header__logo {
+        display: none;
+    }
+
+    .header__items {
+        margin: 10px;
+    }
+
+    .header__links{
+        color: #66ff86;
+        font-size: 11px;
+    }
+    
+    .header__items:first-child {
+        display: none;
+    }
+
+    .header__items:nth-child(4), .header__items:nth-child(5){
+        display: none;
+    }
+
+}

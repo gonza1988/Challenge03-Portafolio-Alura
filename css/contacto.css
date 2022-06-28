@@ -28,13 +28,6 @@
     text-align: center;
 }
 
-.contacto__item {
-	background-color: rgb(93, 93, 93);
-	margin-bottom: 15px;
-	padding: 5px;
-	border-radius: 10px;
-}
-
 .contacto__descripcion{
     margin-bottom: 5px;
 }
@@ -92,17 +85,32 @@
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     font-weight: 600;
-    color: whitesmoke;
+    color: #060E15;
     display: none;
-    text-shadow: 0 0 20px white;
+    text-shadow: 0 0 20px #060E15;
 }
 
 .contacto__errores{
     font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
     text-align: center;
     color: red;
 }
 
 .mostrar{
     display: block;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 480px) {
+
+    .contacto__contenedor{
+        width: 75%;
+    }
+    
+
+    .contacto__input {
+        width: 100%;
+    }
 }

@@ -62,3 +62,19 @@
     margin: 5px;
     text-align: center;
 }
+
+/* Responsive */
+@media screen and (max-width:480px) {
+
+	#formacion {
+		padding: 0;
+	}
+
+	.formacion__titulo {
+		padding-top: 40px;
+	}
+
+	.formacion__item {
+		width: 250px;
+	}
+}

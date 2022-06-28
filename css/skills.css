@@ -90,3 +90,18 @@
     background: url(../resources/iconos/gitHub.png) center / cover no-repeat;
     filter: invert(100%);
 }
+
+
+/* Responsive */
+@media screen and (max-width:480px) {
+
+	#skills {
+		margin-bottom: 0;
+	}
+
+	.skills__item {
+		width: 25%;
+		margin: 10px;
+	}
+	
+}

@@ -16,31 +16,19 @@ body{
     display: flex;
 }
 
+/* Responsive */
 @media screen and (max-width:480px) {
 
-    .contenedorbanner{
-        overflow: hidden;
+    body {
+        background-color: #F5F5F5;
     }
 
-    .banner {
-        height: 250px;
-        width: initial;
-        animation-duration: 20s;
-        animation-name: desplazarbanner;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
-        animation-direction: alternate;
-        position: relative;
+    .banner__imagen {
+        width: 100%;
     }
 
-    @keyframes desplazarbanner{
-        from{
-            left: 0px;
-        }
-
-        to{
-            left: -690px;
-        }
+    .aprendizaje {
+        display: block;
     }
     
 }

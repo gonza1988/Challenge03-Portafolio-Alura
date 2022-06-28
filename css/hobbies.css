@@ -16,6 +16,7 @@
 	width: 80%;
 	margin: 0 7.5%;
 	display: flex;
+    flex-wrap: wrap;
 	justify-content: center;
 }
 
@@ -72,16 +73,27 @@
     background: url(../resources/iconos/book_512x512_35977.png) center / cover no-repeat;
 }
 
+/* Responsive */
+@media screen and (max-width: 480px) {
+
+    .hobbies__item {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .hobbies__item {
+        width: 80%;
+    }
+}
+
 @media screen and (max-width:1024px){
     
+
     .hobbies__item {
         width: 30%;
     }
 }
 
-@media screen and (max-width: 480px) {
-
-    .hobbies__item {
-        width: 100%;
-    }
-}
