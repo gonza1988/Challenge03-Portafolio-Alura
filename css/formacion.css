@@ -33,6 +33,12 @@
 	height: 180px;
     background-color: whitesmoke;
     border-radius: 10px;
+	transition: all 200ms;
+}
+
+.formacion__item:hover {
+	box-shadow: 0 0 20px #ff66c4;
+    transform: scale(1.2, 1.2);
 }
 
 .formacion__lista__imagen{
