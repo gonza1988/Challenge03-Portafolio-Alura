@@ -36,6 +36,16 @@
     text-decoration: underline;
 }
 
+
+/* Responsive */
+@media screen and (max-width: 1024px) {
+
+    .header__menu {
+        justify-content: flex-end;
+    }
+}
+
+
 @media screen and (max-width: 480px) {
 
     .header {
@@ -68,3 +78,5 @@
     }
 
 }
+
+
