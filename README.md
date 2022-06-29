@@ -49,4 +49,4 @@
 
 *Sitio Web En Linea* : [Portfolio Personal]
 
-*Linkedin* : [Gonzalo Cozzo](https://www.linkedin.com/in/gustavo-dev-web/)](https://www.linkedin.com/in/gonzalo-cozzo-04158120b/)
+*Linkedin* : [Gonzalo Cozzo](https://www.linkedin.com/in/gonzalo-cozzo-04158120b/)
