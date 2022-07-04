@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #66ff86;
 }
@@ -18,10 +22,6 @@ body{
 
 /* Responsive */
 @media screen and (max-width:480px) {
-
-    body {
-        
-    }
 
     .banner__imagen {
         width: 100%;
