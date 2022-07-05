@@ -3,6 +3,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
 }
 
 .header__logo {
@@ -42,6 +45,23 @@
 
     .header__menu {
         justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .header__logo {
+        width: 80px;
+        height: 80px;
+        margin: 0px auto 0px 20px;
+    }
+
+    .header__items {
+        margin: 7px;
+    }
+
+    .header__links{
+        font-size: 13px;
     }
 }
 
