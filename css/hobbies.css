@@ -77,7 +77,10 @@
 @media screen and (max-width: 480px) {
 
     .hobbies__item {
-        width: 70%;
+        width: 20%;
+        height: auto;
+        margin: 10px;
+        padding: 10px;
     }
 }
 
@@ -86,13 +89,11 @@
 
     .hobbies__item {
         width: 80%;
-        margin: 10px;
     }
 }
 
 @media screen and (max-width:1024px){
     
-
     .hobbies__item {
         width: 30%;
     }
