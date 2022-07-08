@@ -1,5 +1,6 @@
 #formacion{
     padding: 60px 0;
+	margin-top: -20px;
 }
 
 .formacion__titulo{
@@ -8,7 +9,7 @@
 	font-weight: 700;
 	font-size: 1.8rem;
 	color: white;
-	margin-bottom: 30px;
+	margin: 20px 0;
     text-align: center;
 }
 
@@ -81,11 +82,8 @@
 
 @media screen and (max-width:1024px) {
 
-	.formacion__lista {
-		width: 100%;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		margin: 0 2.5%;
+
+	.formacion__item {
+		width: 250px;
 	}
 }
