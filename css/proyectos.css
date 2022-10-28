@@ -73,7 +73,7 @@
     height: 50px;
     background: #66ff86;
     position: relative;
-    margin: 10px auto 0 auto;
+    margin: 15px auto 0 auto;
 }
 
 .proyectos__tarjeta__footer-icon {
@@ -89,4 +89,16 @@
 
 
 /* Responsive */
+@media screen and (max-width: 1024px) {
+    .proyectos__contenido-tarjeta p {
+        margin: 5px 0 0 0;
+        line-height: 1.0;
+        padding: 3px 8px;
+    }
 
+    .proyectos__tarjeta__footer {
+        width: auto;
+        height: 50px;
+        margin: 8px auto 0 auto;
+    }
+}
